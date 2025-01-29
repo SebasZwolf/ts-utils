@@ -60,4 +60,7 @@ class Mapped<I = number, O = number> implements Iterable<O> {
 
 // new Serie(0,10).map(e => `${e}`).map(e => Number(e));
 
+// for (const o of new Serie(0,100).map(e => 100 - e))
+// 	console.log(o)
+
 export { Serie, Mapped };
